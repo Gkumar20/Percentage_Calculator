@@ -13,7 +13,7 @@ public class CBSE_Mark_Calculator {
         Byte sub4 = sc.nextByte();
         Byte sub5 = sc.nextByte();
 
-        int percentage = (sub1+sub2+sub3+sub4+sub5)*100/(5*total);
+        float percentage = (sub1+sub2+sub3+sub4+sub5)*100/(5*total);
         System.out.print("Final mark In % is ");
         System.out.println(percentage);
     }
